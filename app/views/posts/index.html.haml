@@ -9,10 +9,13 @@
 
 .contents
   .contents__btm
-    .contents__text
+    .contents__btm__text
       ここは仮置きで！
   .contents__btm
-    .contents__form
+    %form.input-box
+      %input{type:"text",class:"input-box__text",placeholder:"文字を入力（25字以内）"}
+      %br
+      %input{type:"submit",class:"input-box__submit",value:"投稿"}
 .footer
   Homework App 2019
   

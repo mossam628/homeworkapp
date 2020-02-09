@@ -28,6 +28,33 @@
 }
 
 .contents {
-  
+  width: 100vw;
+  height: calc(100vh - 80px);
+  padding-top: 80px;
+  background-color: #FDF5E6;
+  &__btm {
+    margin: 30px 250px;
+    padding: 50px 100px;
+    font-weight: bold;
+    border: solid 1px #330000;
+    &__text {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: solid 1px #330000;
+    }
+    form {
+      margin: 0 auto;
+      .input-box__text {
+        height: 100px;
+        width: 500px;
+      }
+      .input-box__submit {
+        height: 30px;
+        width: 50px;
+        margin-left: 225px;
+      }
+    }
+  }
 }
   
