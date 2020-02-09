@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;   
-  color: #330000	;
+  color: #330000;
   font-family: 'arial';    
   &__logo {
     font-size: 40px;
@@ -29,7 +29,7 @@
 
 .contents {
   width: 100vw;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px - 250px);
   padding-top: 80px;
   background-color: #FDF5E6;
   &__btm {
@@ -57,4 +57,4 @@
     }
   }
 }
-  
+@import "footer";
